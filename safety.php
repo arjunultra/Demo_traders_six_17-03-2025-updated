@@ -58,7 +58,7 @@
                 <h3 class="dos-title heading1">Do's</h3>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-4 mb-4">
                     <div class="safety-card">
                         <div class="safety-icon text-center text-md-right"><i class="bi bi-check-circle-fill"></i></div>
                         <h4 class="text-center text-md-right heading3 font-weight-bold">Instructions</h4>
@@ -74,8 +74,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center d-none d-lg-block">
-                    <img src="images/safetytips1.webp" class="img-fluid" alt="Diwali Crackers Sale"
+                <div class="col-lg-4 col-md-4 text-center">
+                    <img src="images/safetytips1.webp" class="img-fluid d-none d-md-block" alt="Diwali Crackers Sale"
                         title="Diwali Crackers Sale">
                     <div class="safety-card">
                         <div class="safety-icon"><i class="bi bi-check-circle-fill"></i></div>
@@ -83,7 +83,7 @@
                         <p>Use fireworks only outdoors for safety.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-4 mb-4">
                     <div class="safety-card">
                         <div class="safety-icon text-center text-md-left"><i class="bi bi-check-circle-fill"></i></div>
                         <h4 class="heading3 text-center text-md-left">Distance</h4>
@@ -98,12 +98,12 @@
                 </div>
             </div>
 
-            <!-- Don'ts Section -->
+            <!-- Dont's Section -->
             <div class="text-center py-4">
                 <h3 class="donts-title heading1">Dont's</h3>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-4 mb-4">
                     <div class="safety-card danger">
                         <div class="safety-icon text-center text-md-right"><i class="bi bi-x-circle-fill"></i></div>
                         <h4 class="text-center text-md-right heading3">Don't Make Tricks</h4>
@@ -116,15 +116,16 @@
                             fully.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center d-none d-lg-block">
-                    <img src="images/minion-sad.webp" class="img-fluid" alt="Safety Tips" title="Safety Tips">
+                <div class="col-lg-4 col-md-4 text-center">
+                    <img src="images/minion-sad.webp" class="img-fluid d-none d-md-block" alt="Safety Tips"
+                        title="Safety Tips">
                     <div class="safety-card danger">
                         <div class="safety-icon"><i class="bi bi-x-circle-fill"></i></div>
                         <h4 class="heading3">Don't Wear Loose Clothes</h4>
                         <p>Loose clothing can catch fire easily around fireworks.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-4 mb-4">
                     <div class="safety-card danger">
                         <div class="safety-icon text-center text-md-left"><i class="bi bi-x-circle-fill"></i></div>
                         <h4 class="heading3 text-center text-md-left">Don't Touch It</h4>

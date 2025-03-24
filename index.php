@@ -246,7 +246,7 @@
 						<div class="text-container bg-white rounded-lg container">
 							<div class="row">
 								<div class="col-12 col-md-6 col-lg-6 align-items-center">
-									<h2 class="text-success font-weight-bold">Promoting Green Crackers</h2>
+									<h2 class="text-success font-weight-bold pt-lg-2">Promoting Green Crackers</h2>
 									<p class="px-3">Green crackers are an eco-friendly alternative to traditional
 										fireworks, designed
 										to
