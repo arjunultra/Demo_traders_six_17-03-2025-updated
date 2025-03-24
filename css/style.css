@@ -312,6 +312,10 @@ section.cta-index .logo-container img {
   max-width: 100%;
   display: block;
 }
+section.cta-index a.cta-btn {
+  position: relative;
+  top: -1em;
+}
 
 /* our brands */
 .indexSwiper {
@@ -389,7 +393,7 @@ section.about .about-banner {
 }
 .about-experience {
   position: absolute;
-  bottom: 5em;
+  bottom: 7em;
   left: 13em;
   transform: translate(-50%, 50%);
   background-color: transparent;
@@ -428,6 +432,220 @@ section.about .about-banner {
 .about-intro p {
   font-size: 0.9rem;
   color: #666;
+}
+/* about parallax */
+section.about-parallax {
+  position: relative;
+  height: auto;
+  background-image: url("../images/about-parallax.webp");
+  background-color: rgba(0, 0, 0, 0.4901960784);
+  background-blend-mode: overlay;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  text-align: center;
+  padding: 6em 2em;
+}
+/* about why choose us */
+.why-choose-us {
+  padding: 80px 0;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  position: relative;
+}
+
+.section-title h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.section-title p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+/* Why Choose Item */
+.why-choose-item {
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+  text-align: right;
+  color: #28a745;
+  height: 11em;
+}
+.why-choose-item p {
+  color: #000;
+}
+.why-choose-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.why-choose-item:hover {
+  transform: translateY(-5px);
+  background: #ffcc00;
+  color: #111 !important;
+  box-shadow: 0px 8px 20px rgba(255, 204, 0, 0.5);
+}
+
+.icon-box img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+}
+
+.why-choose-item:hover .icon-box img {
+  transform: rotate(15deg) scale(1.1);
+}
+
+/* Center Image */
+
+.why-choose-image img:hover {
+  transform: scale(1.05);
+  transition: 1.5s ease-in-out;
+}
+/* safety page */
+section.safety .safety-banner {
+  background-image: url("../images/safety-banner.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30em;
+  width: 100%;
+  text-align: center;
+}
+/* General Section Styling */
+.safety-tips {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  background-image: url("../images/safety-confetti.webp");
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff5733;
+}
+
+.safety-description {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #333;
+}
+
+/* Do's and Don'ts Titles */
+.dos-title {
+  color: #28a745;
+  font-weight: 700;
+}
+
+.donts-title {
+  color: #dc3545;
+  font-weight: 700;
+}
+
+/* Safety Card */
+.safety-card {
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.safety-card h4 {
+  font-weight: 600;
+}
+
+.safety-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.safety-card .safety-icon {
+  font-size: 28px;
+  color: #28a745;
+}
+
+/* Danger Cards (For Don'ts) */
+
+.safety-card.danger .safety-icon {
+  color: #dc3545;
+}
+/* products page */
+section.products .products-banner {
+  background-image: url("../images/products-banner.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30em;
+  width: 100%;
+  text-align: center;
+}
+/* contact page */
+section.contact .contact-banner {
+  background-image: url("../images/contact-banner.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30em;
+  width: 100%;
+  text-align: center;
+}
+/* contact page */
+.contact-box-content {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box-content:hover {
+  background: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.contact-box-content p.heading2 i {
+  font-size: 28px;
+  color: #ff5722;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.contact-box-content:hover p.heading2 i {
+  color: #d84315;
+  transform: scale(1.2);
+}
+.text3.small-box {
+  height: 10em;
+}
+
+.text3 h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text3 p {
+  font-size: 16px;
+  color: #555;
+}
+.map-container iframe {
+  border: none !important;
 }
 /* footer */
 .footer-bg {
@@ -474,6 +692,139 @@ button {
 .font-helvetica {
   font-family: Helvetica, sans-serif;
 }
+/* theme button */
+.theme-btn {
+  position: relative;
+  top: 30px;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(135deg, #ff5733, #ffbd33);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 15px rgba(255, 87, 51, 0.4);
+  z-index: 1;
+  will-change: transform, opacity; /* Prevents flickering */
+}
+
+/* Fireworks burst effect */
+.theme-btn::before,
+.theme-btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.3) 10%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s ease-out;
+  opacity: 0.7;
+}
+
+.theme-btn::before {
+  animation: fireworks-burst 1s infinite ease-out;
+}
+
+.theme-btn::after {
+  animation: fireworks-burst 1.5s infinite ease-out;
+}
+/* Prevent Bootstrap default hover color */
+.theme-btn:hover,
+.theme-btn:focus,
+.theme-btn:active {
+  color: #fff !important; /* Keeps text color white */
+  text-decoration: none !important;
+  background: linear-gradient(135deg, #ffbd33, #ff5733); /* Reverse gradient */
+  transform: scale(1.05);
+  box-shadow: 0px 6px 20px rgba(255, 87, 51, 0.6);
+}
+
+/* Ensure Bootstrap doesn't add a blue color */
+.theme-btn:hover::before {
+  color: inherit !important;
+  background: inherit !important;
+}
+
+/* Hover effect */
+.theme-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 20px rgba(255, 87, 51, 0.6);
+}
+
+.theme-btn:hover::before,
+.theme-btn:hover::after {
+  transform: translate(-50%, -50%) scale(1.5);
+  opacity: 0;
+}
+
+.theme-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0px 2px 10px rgba(255, 87, 51, 0.4);
+}
+.theme-btn1 {
+  display: inline-block;
+  padding: 1em;
+  background-color: #ff4500; /* Replace with your preferred color */
+  color: #fff; /* Text color */
+  font-weight: 700; /* Adjust as needed */
+  position: relative;
+  z-index: 1;
+  border-radius: 7px;
+  padding: 16px 20px;
+  overflow: hidden;
+  transition: background-color 0.4s ease-in-out;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Background image behind the text */
+.theme-btn1::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/play.png);
+  height: 100%;
+  width: 0%;
+  top: 0;
+  right: 0;
+  z-index: -1; /* Moves the image behind the text */
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scale(1.5);
+  animation: shape-animation 5s infinite alternate ease-in-out;
+  background-position: center;
+  transition: width 0.4s ease-in-out;
+}
+
+.theme-btn1:hover {
+  background-color: #000; /* Darker shade on hover */
+  color: #ffffff !important;
+}
+
+.theme-btn1:hover::after {
+  width: 100%;
+}
+
+/* Remove Bootstrap default blue color for <a> */
+a,
+a:hover,
+a:focus {
+  outline: none;
+  text-decoration: none;
+  color: inherit; /* Ensures the link inherits the button text color */
+}
+
 /* custom css ends */
 .w0 {
   width: 0%;
@@ -506,6 +857,8 @@ button {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
+/* Animation */
+
 @keyframes blink {
   0% {
     opacity: 1;
@@ -544,6 +897,28 @@ button {
     transform: rotate(360deg);
   }
 }
+@keyframes fireworks-burst {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes shape-animation {
+  0% {
+    transform: scale(1.5) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.6) rotate(10deg);
+  }
+  100% {
+    transform: scale(1.5) rotate(-10deg);
+  }
+}
+
 /* mobile media query */
 @media (min-width: 1px) and (max-width: 767.98px) {
   .pad {
@@ -554,7 +929,7 @@ button {
     width: 20%;
   }
   /* index parallax section */
-  section.parallax p {
+  section.parallax h3 {
     font-size: 2rem;
   }
   /* index cta */
@@ -565,16 +940,29 @@ button {
     top: 3em;
     left: 11em;
   }
+  section.cta-index .text-container {
+    text-align: center;
+  }
+  section.cta-index a.cta-btn {
+    top: 0em;
+  }
   /* counter section */
   .counter-section .counter-box {
     position: static;
     margin-top: 2em;
   }
   /* about page intro */
+  section.about .about-banner {
+    height: 8em;
+    background-size: cover;
+    background-position: center top;
+  }
   .about-intro {
     text-align: center;
   }
-
+  .about-intro .about-experience {
+    display: none;
+  }
   .about-intro .text-container h2 {
     font-size: 1.8rem;
   }
@@ -586,16 +974,73 @@ button {
   .about-intro .bi {
     font-size: 2rem;
   }
+  section.about-first h3 {
+    font-size: 1.5rem;
+  }
+  section.about-parallax h2 {
+    font-size: 1.5rem;
+  }
+  /* products page */
+  section.products .products-banner {
+    height: 8em;
+    background-size: cover;
+    background-position: center top;
+  }
+  /* safety page */
+  section.safety .safety-banner {
+    height: 8em;
+    background-size: cover;
+    background-position: center top;
+  }
+  .safety-card {
+    padding: 15px;
+  }
+  /* contact page */
+  section.contact .contact-banner {
+    height: 8em;
+    background-size: cover;
+    background-position: center top;
+  }
 }
 /* tablet media query */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .pad {
     padding: 40px 0;
   }
-
+  section.cta-index .text-container {
+    text-align: center;
+    padding: 0;
+  }
+  section.cta-index svg.svg {
+    width: 100%; /* Make it scale inside the container */
+    height: 100%;
+    max-width: 334px; /* Adjust as needed */
+    display: block;
+    margin: 0 auto; /* Centers it */
+  }
+  section.cta-index .logo-container {
+    bottom: 1em;
+    left: 12em;
+  }
+  section.cta-index a.cta-btn {
+    top: -0.5em;
+  }
   .counter-section .counter-box {
     position: static;
     margin-top: 2em;
+  }
+  /* about page */
+  section.about-intro h2 {
+    font-size: 0.7rem;
+  }
+  section.about-intro .about-experience {
+    bottom: 21em;
+    left: 5em;
+  }
+  /* contact page */
+  .contact-box-content .text3.small-box {
+    height: 20em;
+    width: 100%;
   }
 }
 

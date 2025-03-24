@@ -99,10 +99,11 @@
 		<div class="container-fluid no-gutters p-0">
 			<div class="image-container row align-items-center justify-content-center">
 				<div class="col-12 text-center">
-					<p class="heading1 text-white font-weight-bold p-3 text-center">Celebrate Every Moment with Demo
+					<h3 class="heading1 font-arial text-white font-weight-bold p-3 text-center">Celebrate Every Moment
+						with Demo
 						Traders
 						Exclusive
-						Range of Fireworks.</p>
+						Range of Fireworks.</h3>
 					<a class="btn btn-warning font-weight-bold text-uppercase" href="about.php">About Us</a>
 				</div>
 			</div>
@@ -241,18 +242,19 @@
 		<div class="container-fluid p-0 overflow-hidden">
 			<div class="row">
 				<div class="col-12">
-					<div class="bg-image-container">
+					<div class="bg-image-container d-flex flex-column">
 						<div class="text-container bg-white rounded-lg container">
-							<div class="row align-items-center justify-content-center">
-								<div class="col-12 col-md-6 col-lg-6">
-									<h2 class="text-red font-weight-bold">Promoting Green Crackers</h2>
-									<p>Green crackers are an eco-friendly alternative to traditional fireworks, designed
+							<div class="row">
+								<div class="col-12 col-md-6 col-lg-6 align-items-center">
+									<h2 class="text-success font-weight-bold">Promoting Green Crackers</h2>
+									<p class="px-3">Green crackers are an eco-friendly alternative to traditional
+										fireworks, designed
 										to
 										reduce air and noise pollution while still bringing joy to celebrations. By
 										choosing green crackers, we can enjoy
 										festivities
 										responsibly while contributing to a cleaner and healthier future.</p>
-									<a class="btn btn-primary" href="safety.php">Safety</a>
+									<a class="theme-btn cta-btn" href="safety.php">Safety</a>
 								</div>
 								<div class="col-12 col-md-6 col-lg-6 pr-0">
 									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 604 397"
@@ -267,8 +269,11 @@
 								</div>
 							</div>
 						</div>
+
 					</div>
+
 				</div>
+
 			</div>
 		</div>
 	</section>

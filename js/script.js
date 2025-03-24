@@ -91,7 +91,7 @@ $(document).ready(function() {
       freeMode: true,
       autoplay: {
           delay: 2000, // 2 seconds per slide
-          disableOnInteraction: false // Keeps autoplay active after user interaction
+          disableOnInteraction: false, // Keeps autoplay active after user interaction
       },
       effect: "coverflow", // Add a cool 3D coverflow effect
       grabCursor: true,
