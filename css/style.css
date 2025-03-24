@@ -631,8 +631,8 @@ section.contact .contact-banner {
   color: #d84315;
   transform: scale(1.2);
 }
-.text3.small-box {
-  height: 10em;
+.contact-box-content.small-box {
+  height: 15em;
 }
 
 .text3 h1 {
@@ -1038,8 +1038,8 @@ a:focus {
     left: 5em;
   }
   /* contact page */
-  .contact-box-content .text3.small-box {
-    height: 20em;
+  .contact-box-content.small-box {
+    height: 15em;
     width: 100%;
   }
 }

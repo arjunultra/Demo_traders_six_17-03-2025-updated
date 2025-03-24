@@ -50,10 +50,11 @@
                     <h1 class=" font-arial heading1 mb-4 font-weight-bold text-red text-uppercase">Contact us</h1>
                     <div class="row">
                         <!-- Address -->
-                        <div class="col-12 col-md-6 wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".5s">
+                        <div class="col-12 col-md-12 col-lg-12 wow zoomIn" data-wow-duration="1.5s"
+                            data-wow-delay=".5s">
                             <div class="contact-box-content">
                                 <p class="heading2"><i class="bi bi-geo-alt-fill text-red"></i></p>
-                                <div class="text3 small-box">
+                                <div class="text3">
                                     <h1 class="arial heading5 clr3">Demo Traders</h1>
                                     <p class="helvetica smallfnt">Demo Building, Demo Street<br>Sivakasi Main
                                         Road,<br>Sivakasi</p>
@@ -63,9 +64,9 @@
 
                         <!-- Mobile Numbers -->
                         <div class="col-12 col-md-6 pt-4 wow zoomIn" data-wow-duration="1.5s" data-wow-delay=".5s">
-                            <div class="contact-box-content">
+                            <div class="contact-box-content small-box">
                                 <p class="heading2"><i class="bi bi-phone-fill text-red"></i></p>
-                                <div class="text3 small-box">
+                                <div class="text3">
                                     <h1 class="arial heading5 clr3">Mobile Number</h1>
                                     <p class="helvetica smallfnt">+91 99999 99999</p>
                                     <p class="helvetica smallfnt">+91 88888 88888</p>
@@ -75,9 +76,9 @@
                         </div>
 
                         <!-- Email Address -->
-                        <div class="col-12 col-md-12 col-lg-12 pt-4 wow zoomIn text-center text-lg-left"
+                        <div class="col-12 col-md-6 col-lg-6 pt-4 wow zoomIn text-center text-lg-left"
                             data-wow-duration="1.5s" data-wow-delay=".5s">
-                            <div class="contact-box-content">
+                            <div class="contact-box-content small-box">
                                 <p class="heading2"><i class="bi bi-envelope-fill text-red"></i></p>
                                 <div class="text3">
                                     <h1 class="arial heading5 clr3">Email Address</h1>
